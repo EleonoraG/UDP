@@ -17,7 +17,7 @@
 #include <unistd.h>
 #endif
 #include <stdio.h>
-#include "UDPCSInteraction.h"
+#include "CSInteraction.h"
 #define ECHOMAX 255
 #define PORT 48000
 #define FLAG 0
