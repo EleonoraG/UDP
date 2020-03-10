@@ -1,12 +1,15 @@
 /*
- * UDPCSInteraction.h
- *
- *  Created on: 29 nov 2019
- *      Author: Eleonora
+ ============================================================================
+ Name        : CSInteraction.h
+ Author      : Eleonora Ghizzota
+ Version     :
+ Copyright   : Your copyright notice
+ Description : UDP Server-Client interaction library
+ ============================================================================
  */
 
-#ifndef UDPCSINTERACTION_H_
-#define UDPCSINTERACTION_H_
+#ifndef CSINTERACTION_H_
+#define CSINTERACTION_H_
 
 #if defined WIN32
 #include <winsock.h>
@@ -36,4 +39,4 @@ void sendVowels();
 void recvVowels();
 
 
-#endif /* UDPCSINTERACTION_H_ */
+#endif /* CSINTERACTION_H_ */
