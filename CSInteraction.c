@@ -1,10 +1,10 @@
 /*
  ============================================================================
- Name        : UDPCSInteraction.c
+ Name        : CSInteraction.c
  Author      : Eleonora Ghizzota
  Version     :
  Copyright   : Your copyright notice
- Description : Hello World in C, Ansi-style
+ Description : UDP Server-Client interaction library
  ============================================================================
  */
 
@@ -21,7 +21,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "UDPCSInteraction.h"
+#include "CSInteraction.h"
 #define ECHOMAX 255
 #define PORT 48000
 
