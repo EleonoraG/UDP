@@ -4,7 +4,7 @@
  Author      : Eleonora Ghizzota
  Version     :
  Copyright   : Your copyright notice
- Description : UDP server implementation
+ Description : UDP Server implementation
  ============================================================================
  */
 
@@ -18,7 +18,7 @@
 #endif
 #include <stdio.h>
 #include <string.h> /* for memset() */
-#include "UDPCSInteraction.h"
+#include "CSInteraction.h"
 #define ECHOMAX 255
 #define PORT 48000
 #define FLAG 0
