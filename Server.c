@@ -1,10 +1,10 @@
 /*
  ============================================================================
- Name        : UDPServer.c
+ Name        : Server.c
  Author      : Eleonora Ghizzota
  Version     :
  Copyright   : Your copyright notice
- Description : Hello World in C, Ansi-style
+ Description : UDP server implementation
  ============================================================================
  */
 
