@@ -1,10 +1,10 @@
 /*
  ============================================================================
- Name        : UDPClient.c
+ Name        : Client.c
  Author      : Eleonora Ghizzota
  Version     :
  Copyright   : Your copyright notice
- Description : Hello World in C, Ansi-style
+ Description : UDP Client implementation
  ============================================================================
  */
 
@@ -105,8 +105,6 @@ int main() {
 	vowelsNum = countVowels(echoBuffer, vowelsToSend);
 
 	printf("Ci sono %d vocali \n", vowelsNum);
-//	printf("%s \n", vowelsToSend);
-//	printf(" \n");
 
 	sprintf(echoBuffer, "%d", vowelsNum);
 
